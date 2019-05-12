@@ -31,6 +31,8 @@ https://scotch.io/tutorials/build-a-crud-web-app-with-python-and-flask-part-one
 
 http://flask.pocoo.org/docs/1.0/tutorial/layout/
 
+http://jinja.pocoo.org/docs/2.10/templates/
+
 https://stackoverflow.com/questions/26997679/writing-a-csv-from-flask-framework
 
 https://www.codementor.io/adityamalviya/python-flask-mysql-connection-rxblpje73
