@@ -8,7 +8,7 @@ pip install mysql-connector-python
 pip install csv
 ```
 
-To set up database:
+To setup the database:
 ```
 mysql -u root -p 
 Configure db.py file with your own necessary credentials
@@ -20,8 +20,8 @@ To run the project:
 cd ~/408-finalproject/
 export FLASK_APP=blogforum
 export FLASK_ENV=development
-Open Google Chrome browser and navigate to localhost:5000 or 127.0.0.1:5000
-
+Open Google Chrome browser
+Navigate to localhost:5000 or 127.0.0.1:5000
 ```
 
 Resources:
