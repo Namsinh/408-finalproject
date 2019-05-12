@@ -25,6 +25,8 @@ Navigate to localhost:5000 or 127.0.0.1:5000
 ```
 
 Resources:
+
+
 https://scotch.io/tutorials/build-a-crud-web-app-with-python-and-flask-part-one
 
 http://flask.pocoo.org/docs/1.0/tutorial/layout/
