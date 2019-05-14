@@ -1,31 +1,38 @@
-# BretBoard
+# 408-finalproject
 
-This is a messageboard application made using flask in python. It communicates with a mysql database to store user posts and login credentials.
+To setup the environment (assuming Python3 is already installed):
+```
+pip install flask
+pip install sql
+pip install mysql-connector-python
+pip install csv
+```
 
-To run the application you will need to install the following python3 libraries
+To setup the database:
+```
+mysql -u root -p 
+Configure db.py file with your own necessary credentials
+Copy and paste contents of the blogdb.sql file into your mysql terminal and execute it
+```
 
-	pip install flask
+To run the project:
+```
+cd ~/408-finalproject/
+export FLASK_APP=blogforum
+export FLASK_ENV=development
+Open Google Chrome browser
+Navigate to localhost:5000 or 127.0.0.1:5000
+```
 
-    pip install mysql-connector
+Resources:
 
-    pip install csv
 
-    pip install sql
+https://scotch.io/tutorials/build-a-crud-web-app-with-python-and-flask-part-one
 
-If any installations fail, try the following. Some libraries have python2 duplicates, and we want the python3 versions
+http://flask.pocoo.org/docs/1.0/tutorial/layout/
 
-	python3 -m pip install [library]
+http://jinja.pocoo.org/docs/2.10/templates/
 
-To host the server, from the FinalProject folder:
+https://stackoverflow.com/questions/26997679/writing-a-csv-from-flask-framework
 
-	export FLASK_APP=bretboard
-
-	export FLASK_ENV=development
-
-	flask run
-
-To create and populate the database, copy and paste the contents of db.sql into a datagrip terminal.
-
-Navigate to 127.0.0.1:5000
-
-If you have any questions or problems feel free to slack me or email me at andre205@mail.chapman.edu
+https://www.codementor.io/adityamalviya/python-flask-mysql-connection-rxblpje73
