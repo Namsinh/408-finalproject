@@ -23,6 +23,9 @@ export FLASK_ENV=development
 Open Google Chrome browser
 Navigate to localhost:5000 or 127.0.0.1:5000
 ```
+To generate reports, navigate to:
+localhost:5000/generate
+
 
 Resources:
 
