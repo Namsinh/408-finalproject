@@ -17,6 +17,7 @@ Copy and paste contents of the blogdb.sql file into your mysql terminal and exec
 
 To run the project:
 ```
+git clone https://github.com/Namsinh/408-finalproject.git
 cd ~/408-finalproject/
 export FLASK_APP=blogforum
 export FLASK_ENV=development
