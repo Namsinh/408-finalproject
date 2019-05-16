@@ -10,7 +10,7 @@ pip install csv
 
 To setup the database:
 ```
-Configure db.py file with your own necessary credentials (if unchanged, default password is empty string)
+Configure db.py file with your own credentials (if unchanged, default password is empty string)
 mysql -u root -p 
 Copy and paste contents of the blogdb.sql file into your mysql terminal and execute it
 ```
