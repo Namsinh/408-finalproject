@@ -10,8 +10,8 @@ pip install csv
 
 To setup the database:
 ```
-mysql -u root -p 
 Configure db.py file with your own necessary credentials (if unchanged, default password is empty string)
+mysql -u root -p 
 Copy and paste contents of the blogdb.sql file into your mysql terminal and execute it
 ```
 
@@ -24,7 +24,7 @@ export FLASK_ENV=development
 Open Google Chrome browser
 Navigate to localhost:5000 or 127.0.0.1:5000
 ```
-To generate reports, navigate to:
+To generate reports navigate to:
 ```
 localhost:5000/generate
 ```
